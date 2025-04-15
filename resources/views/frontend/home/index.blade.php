@@ -8,7 +8,7 @@
             <div class="navbars">
                 <h1>OUR SERVICES</h1>
                 <div class="booking-shortcut">
-                    <div class="booking-column">sal</div>
+                    <div class="booking-column">Changing Oil</div>
                     <div class="booking-column">Diagnostic Test</div>
                     <div class="booking-column">Engine Service</div>
                     <div class="btn-search">Search</div>
