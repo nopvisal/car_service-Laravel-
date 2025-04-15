@@ -179,7 +179,7 @@
                     {{ Auth::user()->name }}
                 </span>
                 <img class="img-profile rounded-circle"
-                    src="{{ asset('frontend/img/p5.jpg') }}">
+                    src="{{ asset('frontend/img/img-01.png') }}">
             </a>
             <!-- Dropdown - User Information -->
             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"

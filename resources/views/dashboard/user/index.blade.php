@@ -8,7 +8,7 @@
                 <li class="breadcrumb-item"><a href="{{ url('/dashboard/user') }}">User</a></li>
             </ol>
         </nav>
-        <div class="card shadow mb-4">
+        <div class="card shadow mb-4 col-12">
             <div class="d-flex justify-content-between py-3 px-4">
                 <div>
                     <a href="{{ url()->previous() }}" class="btn btn-secondary btn-icon-split">
@@ -28,14 +28,14 @@
                 </div>
             </div>
 
-            <div class="card-body">
+            <div class="card-body col-12">
                 <div class="table-responsive">
                     <div class="d-flex justify-content-between align-items-center mb-3">
                         <h4>Users Management</h4>
 
                     </div>
 
-                    <table class="table table-hover table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <table class="table table-hover table-bordered col-12" id="dataTable" width="100%" cellspacing="0">
                         <thead class="thead-dark-blue">
                             <tr class="text-center">
                                 <th>No</th>

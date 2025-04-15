@@ -17,13 +17,13 @@
                         <div class="d-flex flex-column align-items-center mt-4">
                             <div class="rounded-circle overflow-hidden" style="width: 150px; height: 150px;">
                                 <img class="w-100 h-100"
-                                    src="{{ asset(auth()->user()->profile_picture ?? 'frontend/img/p5.jpg') }}"
+                                    src="{{ asset(auth()->user()->profile_picture ?? 'frontend/img/img-01.png') }}"
                                     alt="profile picture">
                             </div>
                             <div class="mt-3 text-center">
-                                <h5>[[ currentUser.name ]]</h5>
-                                <h5>[[ currentUser.role ]]</h5>
-                                <h5>[[ currentUser.address ]]</h5>
+                                <h5>{{ Auth::user()->name }}</h5>
+                                <h5>{{ Auth::user()->role }}</h5>
+                                <h5>{{ Auth::user()->address }}</h5>
                             </div>
                         </div>
                         <ul class="list-group list-group-flush">
@@ -55,7 +55,7 @@
                                     <h6 class="mb-0">Full Name</h6>
                                 </div>
                                 <div class="col-sm-9 text-secondary">
-                                    [[ currentUser.name ]]
+                                {{ Auth::user()->name }}
                                 </div>
                             </div>
                             <hr>
@@ -64,7 +64,7 @@
                                     <h6 class="mb-0">Email</h6>
                                 </div>
                                 <div class="col-sm-9 text-secondary">
-                                    [[ currentUser.email ]]
+                                {{ Auth::user()->email }}
                                 </div>
                             </div>
                             <hr>
@@ -73,7 +73,7 @@
                                     <h6 class="mb-0">Gender</h6>
                                 </div>
                                 <div class="col-sm-9 text-secondary">
-                                    [[ currentUser.gender ]]
+                                [[ currentUser.gender ]]
                                 </div>
                             </div>
                             <hr>
@@ -91,7 +91,7 @@
                                     <h6 class="mb-0">Phone</h6>
                                 </div>
                                 <div class="col-sm-9 text-secondary">
-                                    [[ currentUser.phone ]]
+                                099941633
                                 </div>
                             </div>
                             <hr>

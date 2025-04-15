@@ -27,19 +27,7 @@
         Manu
     </div>
     <!-- Branches Collapse Menu -->
-    <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-            aria-expanded="true" aria-controls="collapseUtilities">
-            <i class="fas fa-boxes"></i>
-            <span>Branches</span>
-        </a>
-        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-            data-parent="#accordionSidebar">
-            <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item" href="/utilities">List Brnach</a>
-            </div>
-        </div>
-    </li>
+   
     <!-- Booking -->
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBooking"
@@ -82,19 +70,7 @@
         </div>
     </li>
 
-    <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseCategory"
-            aria-expanded="true" aria-controls="collapseCategory">
-            <i class="fa-solid fa-layer-group fs-5"></i>
-            <span>Category</span>
-        </a>
-        <div id="collapseCategory" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-            <div class="bg-white py-2 collapse-inner rounded">
-                <h6 class="collapse-header">Category</h6>
-                <a class="collapse-item" href="/product_type_1">Category</a>
-        
-        </div>
-    </li>
+   
 
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBrands"
@@ -111,18 +87,7 @@
         </div>
     </li>
 
-    <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSupplier"
-            aria-expanded="true" aria-controls="collapseSupplier">
-            <i class="fa-solid fa-suitcase-rolling fs-5"></i>
-            <span>Supplier</span>
-        </a>
-        <div id="collapseSupplier" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-            <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item" href="/supplier">Supplier</a>
-            </div>
-        </div>
-    </li>
+    
 
     <!-- Branch -->
     <li class="nav-item">
@@ -148,7 +113,7 @@
             aria-expanded="{{ request()->is('dashboard/user*') || request()->is('dashboard/profile') ? 'true' : 'false' }}"
             aria-controls="collapseUser">
             <i class="fas fa-fw fa-wrench"></i>
-            <span>Utilities</span>
+            <span>User Management</span>
         </a>
         <div id="collapseUser"
             class="collapse {{ request()->is('dashboard/user*') || request()->is('dashboard/profile') ? 'show' : '' }}"
